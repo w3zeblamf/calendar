@@ -1,3 +1,3 @@
-# zeblamfw3-calendar
+# HTML-CSS-JS Project : Calendar
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/zeblamfw3-calendar)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/w3zeblamf-calendar)
