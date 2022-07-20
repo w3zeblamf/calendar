@@ -5,6 +5,8 @@ const date = new Date();
 //console.log(date);
 //console.log(month);
 
+const monthDays = document.querySelector('.days');
+
 const months = [
   'January', // [0]
   'February', // [1]
@@ -26,4 +28,7 @@ document.querySelector('.date p').innerHTML = date.toDateString();
 
 let days = '';
 
-for (let i = 1; i <= 31; i++) {}
+for (let i = 1; i <= 31; i++) {
+  days += `<div>${i}</div>`;
+  monthDays.innerHTML = days;
+}
